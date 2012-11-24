@@ -1,0 +1,311 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+body{
+    background: #f5f5f5 url('../img/bg.png') repeat-x;
+    font: 14px/1.2em Arial, sans-serif;
+}
+header{
+    height: 75px;
+    background: #afe1ec url('../img/header_bg.png') repeat-x;
+    padding-top: 30px;
+}
+header h1{
+    overflow: hidden;
+    margin-left: 9px;
+    float: left;
+    display: inline-block;
+}
+header menu{
+    float: right;
+    display: inline-block;
+    margin: 14px 11px 0 0;
+}
+header menu>li{
+    display: inline-block;
+    padding: 2px 31px;
+    border-left: 1px solid #7cc7d7;
+}
+header menu>li:first-child{
+    border: none;
+}
+.paddingRight{
+    padding-right: 0px;
+}
+header menu>li>a, menu>li ul>li>a{
+    text-decoration: none;
+    color: #3f5366;
+    text-align: center;
+    display: block;
+}
+header menu>li>a:hover, menu>li ul>li>a:hover,  .active{
+    color:#fff;
+}
+header menu>li ul{
+    position: absolute;
+    padding: 10px 0;
+}
+header menu>li ul>li{
+    margin-bottom: 5px;
+}
+
+/* heading */
+h1{
+    font:300 30px/1.2em 'Open Sans', sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow:1px 1px #3abdda;
+}
+
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.aligncenter{
+    text-align: center;
+}
+/* step 2 */
+.clearfix{
+    overflow: hidden;
+    position: relative;
+}
+.param-hidden{
+    opacity: .4;
+}
+.hide-show{
+    opacity: .5;
+    transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+    .hide-show span{
+        display: none;
+    }
+    .param-hidden .hide-show strong{
+        display: none;
+    }
+    .param-hidden .hide-show span{
+        display: block;
+    }
+.param:hover .hide-show{
+    opacity: 1;
+}
+.resume-bg{
+    background: #54c8e2; /* Old browsers */
+    background: -moz-linear-gradient(top, #54c8e2 0%, #96deee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54c8e2), color-stop(100%,#96deee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #54c8e2 0%,#96deee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #54c8e2 0%,#96deee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #54c8e2 0%,#96deee 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #54c8e2 0%,#96deee 100%); /* W3C */
+    padding: 30px 0 50px 0;
+    position: relative;
+    z-index: 2;
+}
+#resume{
+    height: 300px;
+    background: #fff;
+}
+#resume.template1{
+    background: #fff;
+}
+#resume.template2{
+    background: #eee;
+}
+#resume.template3{
+    background: #ddd;
+}
+#resume.template4{
+    background: #aaa;
+}
+/* steps menu */
+#steps-menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 64px;
+    border-top: 1px solid #52b9d1;
+    background: #afe1ec;
+    padding: 0;
+    z-index: 99;
+}
+    #steps-menu a{
+        display: block;
+        text-indent: -5000px;
+        overflow: hidden;
+    }
+    #steps-menu #buy,
+    #steps-menu .hidden{
+        display: none;
+    }
+    #steps-menu #steps-menu-container{
+        width: 940px;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        padding-top: 6px;
+    }
+    #steps-menu #prev{
+        float: left;
+        background: url(../img/prev-btn.png) 0 0 no-repeat;
+        width: 135px;
+        height: 49px;
+    }
+    #steps-menu #next{
+        float: right;
+        background: url(../img/next-btn.png) 0 0 no-repeat;
+        width: 134px;
+        height: 49px;
+    }
+    #steps-menu #buy{
+        float: right;
+        background: url(../img/buy-btn.png) 0 0 no-repeat;
+        width: 134px;
+        height: 49px;
+    }
+/* preview */
+#preview{
+    height: 300px;
+    background: #ddd;
+}
+/* share btns */
+#share-btns{
+    position: fixed;
+    top: 150px;
+    right: 0;
+    width: 50px;
+    height: 150px;
+    background: #ddd;
+}
+/* carousel */
+.bg-carousel{
+    background: #59cae3;
+    border-bottom: 1px solid #0fafd4;
+    box-shadow:inset  0 3px 3px rgba(0,0,0,.1), 0 3px 3px rgba(0,0,0,.1);
+    padding: 20px 0;
+    position: relative;
+    z-index: 3;
+}
+.es-carousel-wrapper{
+    padding: 0 106px;
+    position:relative;
+}
+.es-carousel{
+    overflow:hidden;
+}
+.es-carousel ul{
+    display:none;
+}
+.es-carousel ul li{
+    height:100%;
+    float:left;
+    display:block;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.es-nav span{
+    position:absolute;
+    top:50%;
+    left:1px;
+    margin-top: -29px;
+    background: url(../img/car-btns.png) 0 -59px no-repeat;
+    width:58px;
+    height:58px;
+    text-indent:-9000px;
+    cursor:pointer;
+}
+.es-nav span.es-nav-next{
+    right:1px;
+    left:auto;
+    background-position:0 0;
+}
+.es-nav span:hover{
+    opacity:1.0;
+}   
+#templatesMenu li a{
+    display: block;
+    position: relative;
+    padding: 3px 0 0 3px;
+}  
+.paid_template a:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 129px;
+    height: 129px;
+    background: url(../img/payment.png) 0 0 no-repeat;
+}          
+/* steps progress bar */
+#steps-progress{
+    width: 940px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border-left: 1px solid #63c3d9;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+    #steps-progress ul{
+        position: relative;
+        overflow: hidden;
+    }
+    #steps-progress ul li{
+        float: left;
+        color: #fff;
+        font:300 18px/1.2em 'Open Sans', sans-serif;
+        text-shadow:1px 1px #3abdda;
+        width: 260px;
+        margin: 0;
+        padding: 20px 0 25px 65px;
+        position: relative;
+        background: #54c8e2 url(../img/steps-progress-bg.jpg) 0 0 repeat-x;
+    }
+    #steps-progress ul li:before{
+        content: "";
+        position: absolute;
+        background: url(../img/steps-progress-corner1.jpg) 0 0 no-repeat;
+        display: block;
+        width: 35px;
+        height: 66px;
+        top: 0;
+        left: 0;
+    }
+        #steps-progress ul li:first-child{ 
+            padding-left: 30px;
+            border-radius: 5px 0 0 5px;
+        }
+        #steps-progress ul li:first-child:before{ background: none;}
+        #steps-progress ul li.last{
+            background: #54c8e2 url(../img/steps-progress-bg2.jpg) 0 0 repeat-x;
+            border-radius: 0 5px 5px 0;
+            color: #3c525c;
+            text-shadow:1px 1px #fcfdfd;
+        }
+        #steps-progress ul li.last2{
+            border-radius: 0 5px 5px 0;
+            border-right: 1px solid #63c3d9;
+            width: 259px;
+        }
+    #steps-progress ul li.last:before{
+        background: url(../img/steps-progress-corner2.jpg) 0 0 no-repeat;
+    }
+    #steps-progress ul li strong{
+        font-weight: 700;
+    }
+/*  footer */
+#footer{
+    width: 100%;
+    padding: 30px 0 100px;
+    background: #caeaf0;
+    text-align: center;
+    color: #6ab2c1;
+    font-size: 12px;
+    line-height: 15px;
+}
