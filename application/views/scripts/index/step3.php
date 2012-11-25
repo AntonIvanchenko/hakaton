@@ -1,6 +1,6 @@
 <div id="steps-progress">
         <ul>
-            <li><strong>Step 1.</strong> Choose Template</li>
+            <li><strong>Step 1.</strong> Log In</li>
             <li><strong>Step 2.</strong> Preview &amp; Edit</li>
             <li class="last2"><strong>Step 3.</strong> Check &amp; Share</li>
         </ul>
