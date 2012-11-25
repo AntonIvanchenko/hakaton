@@ -24,11 +24,10 @@
                 <h1><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
                 <ul id="menu" class="sf-menu">
                     <li>
-                        <a href="#">Get Started</a>
+                        <a href="#">Special Offers</a>
                     </li>
-                    <li><a href="#">Key Features</a></li>
-                    <li><a href="#">Sign In</a></li>
-                    <li class="paddingRight"><a href="#">Register</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="paddingRight"><a href="#">FAQ</a></li>
                 </ul>
                 <div class="clear"></div>
             </div>
