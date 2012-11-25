@@ -53,3 +53,15 @@
             <a href="buy" id="buy">buy</a>
         </div>
     </div>
+    
+     <div id="getLinkWindow">
+        <div id="buyBg"></div>
+        <div id="getLinkPart">
+            <h2>Link to your resume</h2>
+            <input name="link" type="text" value="">
+            <p>Press CTRL + C to copy</p>
+            <div id="buyButtons">
+                <a href="#" class="close-link" id="closeGetLink">close</a>
+            </div>
+        </div>
+    </div>

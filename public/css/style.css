@@ -315,6 +315,12 @@ h1{
         width: 134px;
         height: 49px;
     }
+    #steps-menu #purchase{
+        float: right;
+        background: url(../img/purchase-btn.png) 0 0 no-repeat;
+        width: 301px;
+        height: 49px;
+    }
 /* preview */
 #preview{
     height: 300px;
@@ -452,7 +458,8 @@ h1{
     padding: 20px 0;
     border-top: 1px solid #4db4ca;
 }
-.share-link{
+.share-link,
+.close-link{
     display: inline-block;
     background: #ffffff; /* Old browsers */
     background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
@@ -469,6 +476,7 @@ h1{
     text-decoration: none;
     margin: 5px;
 }
+.close-link{box-shadow: 0 0 0 5px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.2);}
     .share-link img{
         margin: 0 7px 0 0;
     }
@@ -532,7 +540,7 @@ h1{
 }
 #buyButtons{
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     left: 230px;
 }
 #buyBg{
@@ -542,10 +550,32 @@ h1{
     height: 100%; 
 }
 /*end buy*/
+/*get link*/
+#getLinkWindow{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   top: 0;
+   display: none;
+}
+#getLinkPart{
+    width: 480px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -70px;    
+    background: #fff;
+    padding: 20px; 
+}
+input[name='link']{
+    width: 100%;
+}
+/*end get link*/
 /*  footer */
 footer{
-    padding-top: 30px;
-    height: 39px;
     background: #cceaf0;
     text-align: center;
     font-size: 12px;
