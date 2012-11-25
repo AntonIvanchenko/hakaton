@@ -468,6 +468,9 @@ h2{
             color: #3c525c;
             text-shadow:1px 1px #fcfdfd;
         }
+        #steps-progress ul li.active{
+            font-weight: bold;
+        }
         #steps-progress ul li.last2{
             border-radius: 0 5px 5px 0;
             border-right: 1px solid #63c3d9;
@@ -619,5 +622,5 @@ footer{
 }
 #footer{
     width: 100%;
-    padding: 30px 0 50px;
+    padding: 30px 0 90px;
 }
