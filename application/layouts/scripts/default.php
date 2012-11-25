@@ -3,6 +3,18 @@
 	<meta charset="UTF-8">
     <meta name="description" content="">
 	<title>index</title>
+<<<<<<< HEAD
+    <link type="text/css" href="/css/normalize.css" rel="stylesheet">
+    <link type="text/css" href="/css/style.css" rel="stylesheet">
+    <link type="text/css" href="/css/skeleton.css" rel="stylesheet">
+    <link type="text/css" href="/css/layout.css" rel="stylesheet">
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+    <script src="/js/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+    <script src="/js/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <script src="/js/superfish.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+=======
     <link type="text/css" href="css/normalize.css" rel="stylesheet">
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <link type="text/css" href="css/skeleton.css" rel="stylesheet">
@@ -14,6 +26,7 @@
     <script src="js/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
     <script src="js/superfish.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
+>>>>>>> 2cdaa6d1ceadce02b6671c5808625a5aa2000ca9
     <!--[if lt IE 9]>
         <script type="text/javascript" src="js/html5.js"></script>
     <![endif]-->

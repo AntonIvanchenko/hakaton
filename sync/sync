@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd ..
+RSYNC_PASSWORD=`cat $HOME/.rsync/password.hakaton`; export RSYNC_PASSWORD
+USER=hakaton
+rsync -rvht --delete-after --password-file=$HOME/.rsync/password.hakaton public library application .htaccess hakaton@166.78.7.189::hakaton
+
