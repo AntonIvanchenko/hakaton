@@ -1,6 +1,5 @@
-
- $(document).ready(function(){
-    var resum = $('#resume'),
+$(document).ready(function(){
+var resum = $('.resume-body'),
         caruselFirstNum = 0,
         caruselFirstAllTemp = $("#inner>ul>li").length,
         innerFirst = $("#inner>ul"),
@@ -42,21 +41,20 @@
         }
     )
     // end index page
-    // step 2
-    resum.find(">div").each(function(i){
+    resum.find(">.resume-part").each(function(i){
         textArea[i] = true;
     })
     $(".hide-show").toggle(
         function(){
-            $(this).parent().find("p").slideUp(300);
+            $(this).parent(".resume-part").find(">.part-wrapper").fadeTo(300,0.2);
             $(this).text("show");
-            textArea[$(this).parent("div").index()] = false;
+            textArea[$(this).parent(".resume-part").index()] = false;
             return false;
         },
         function(){
-            $(this).parent().find("p").slideDown(300);
+            $(this).parent(".resume-part").find(">.part-wrapper").fadeTo(300,1);
             $(this).text("hide");
-            textArea[$(this).parent("div").index()] = true;
+            textArea[$(this).parent(".resume-part").index()] = true;
             return false;
         }
     );

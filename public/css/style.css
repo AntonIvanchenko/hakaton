@@ -61,6 +61,9 @@ header #menu>li ul>li{
 .with_ul{
   background: url('../img/sub_menu.png') 87% 7px no-repeat;  
 }
+p{
+    margin-bottom: 20px;
+}
 /*content*/
 #slogan{
     font: 72px "Open Sans", sans-serif;
@@ -203,6 +206,11 @@ h1{
     margin-bottom: 30px;
     text-shadow:1px 1px #3abdda;
 }
+h2{
+    font:700 25px/1.2em 'Open Sans', sans-serif;
+    color: #6AB2C1;
+    margin-bottom: 20px;
+}
 
 .fleft{
     float: left;
@@ -253,20 +261,7 @@ h1{
     z-index: 2;
 }
 #resume{
-    height: 300px;
     background: #fff;
-}
-#resume.template1{
-    background: #fff;
-}
-#resume.template2{
-    background: #eee;
-}
-#resume.template3{
-    background: #ddd;
-}
-#resume.template4{
-    background: #aaa;
 }
 /* steps menu */
 #steps-menu{
@@ -323,8 +318,7 @@ h1{
     }
 /* preview */
 #preview{
-    height: 300px;
-    background: #ddd;
+    padding-bottom: 30px;
 }
 /* share btns */
 #share-btns{
@@ -574,6 +568,15 @@ input[name='link']{
     width: 100%;
 }
 /*end get link*/
+/* faq */
+.faq-question{
+    color: #000;
+    margin-bottom: 5px;
+}
+.faq strong{
+    font-weight: bold;
+    font-size: 1.2em;
+}
 /*  footer */
 footer{
     background: #cceaf0;

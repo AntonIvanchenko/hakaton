@@ -22,22 +22,26 @@ class PdfExportController extends Zend_Controller_Action
 	{
 		// create PDF
 		$pdf = new Zend_Pdf();
+		
+		$useremail = $this->_getParam('email');
+		
 		// create A4 page
-		$page = new Zend_Pdf_Page(Zend_Pdf_Page::SIZE_A4);
-
-		// define font resource
-		$font = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_HELVETICA);
-
-		// set font for page
-		// write text to page
-		$page->setFont($font, 24)
-			 ->drawText('That which we call a rose,', 72, 720)
-			 ->drawText('By any other name would smell as sweet.', 72, 620);
-
-		// add page to document
-		$pdf->pages[] = $page;
-		$filename = 'downloads/resume_'.date('Y_m_d_H_i_s',time()).'.pdf'; 
-		$pdf->save($filename);
+//		$page = new Zend_Pdf_Page(Zend_Pdf_Page::SIZE_A4);
+//
+//		// define font resource
+//		$font = Zend_Pdf_Font::fontWithName(Zend_Pdf_Font::FONT_HELVETICA);
+//
+//		// set font for page
+//		// write text to page
+//		$page->setFont($font, 24)
+//			 ->drawText('That which we call a rose,', 72, 720)
+//			 ->drawText('By any other name would smell as sweet.', 72, 620);
+//
+//		// add page to document
+//		$pdf->pages[] = $page;
+//		$filename = 'downloads/resume_'.date('Y_m_d_H_i_s',time()).'.pdf'; 
+		$filename = 'downloads/APPLICATION.pdf'; 
+//		$pdf->save($filename);
 
 		$this->_helper->layout->disableLayout();
 		$this->_helper->viewRenderer->setNoRender();
@@ -47,6 +51,9 @@ class PdfExportController extends Zend_Controller_Action
 		$this->getResponse()->setHeader('Content-type', 'application/x-pdf', true);
 		$this->getResponse()->setHeader('Content-disposition', 'inline; filename=your_resume.pdf', true);
 		$this->getResponse()->setBody($pdf->render());
+		
+
+		
 	}
 }
 

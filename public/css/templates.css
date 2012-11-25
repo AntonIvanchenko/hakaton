@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
+.main{
+	background: #f5f5f5;
+	border-top: 5px solid #8bdbec;
+	padding: 50px 0;
+}
+.main h1{
+	font: 60px/1.2em 'Arbutus Slab', serif;;
+	color: #333;
+	text-shadow:none;
+	padding: 0;
+	margin: 0;
+}
+.main h3{
+	font:300 italic 18px/22px 'Open Sans', sans-serif;
+	color: #63cde5;
+}
+.main h4{
+	font:700 italic 18px/22px 'Open Sans', sans-serif;
+	color: #333;
+}
+.alignright{
+	text-align: right;
+}
+.info{
+	color: #333;
+	font:italic 14px/1.2em 'Open Sans', sans-serif;
+	padding-top: 20px;
+}
+.info span{
+	color: #63cde5;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.resume-header{
+	padding-bottom: 40px;
+}
+.resume-part{
+	position: relative;
+	overflow: hidden;
+	padding:40px 0;
+}
+	.resume-part:before{
+		content: "";
+		display: block;
+		height: 1px;
+		width: 95%;
+		background: url(../img/part-line.png) 0 0 repeat-x;
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+.part-title{
+	float: left;
+	width: 160px;
+}
+.part-content{
+	overflow: hidden;
+}
+.hide-show{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 18px;
+	height: 19px;
+	display: block;
+	background: url(../img/hide-show.png) 0 0 no-repeat;
+	text-indent: -5000px;
+	z-index: 99;
+}
+.resume-list{
+	list-style: none;
+	margin: 0 0 20px 0;
+}
+.resume-list li{
+	background: url(../img/marker1.png) 0 7px no-repeat;
+	padding: 0 0 3px 20px;
+}
+
+.template2 .main{
+	border-top: 5px solid #37ac7e;
+}
+.template2 .main h1,
+.template2 .main h4{
+	color: #000;
+}
+.template2 .main h3,
+.template2 .info span{
+	color: #37ac7e;
+}
+
+.template2 .part-title{
+	float: none;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.template3 .main{
+	border-top: 5px solid #cd6f60;
+}
+.template3 .main h1,
+.template3 .main h4{
+	color: #000;
+}
+.template3 .main h3,
+.template3 .info span{
+	color: #cd6f60;
+}
+.template3 .part-title{
+	float: none;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+
+.template4 .main{
+	border-top: 5px solid #3330b7;
+}
+.template4 .main h3,
+.template4 .info span{
+	color: #3330b7;
+}
