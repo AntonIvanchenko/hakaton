@@ -1,8 +1,17 @@
+
     <section class="container_12 clearfix">
         <div class="grid_12">
             <p id="slogan"><span class="strong">Create</span> a Professional Resume<br><span class="strong">in a minute</span>!</p>
             <a id="startButton" href="#">Get Started</a>
             <hr>
+            <!--new_1-->
+            <p class="description padding_1">Looking for a new job, but don't have time to take care of the resume?<br>
+This <span class="dStrong">RESUME BUILDER</span> is <span class="dStrong">FOR YOU!</span></p>
+            <p class="description padding_2">Within just a couple of clicks we will turn your LinkedIn profile into a job winning resume!<br>
+Plus, with the stunning design based on one of our <span class="dStrong dSItalic">awesome templates you</span> will<br>
+impress the employers and will find the perfect job - whatever it is.</p>
+            <hr>
+            <!--end new_1-->
             <ul class="list_1">
                 <li>
                 	<a href="/index/login">
@@ -10,6 +19,7 @@
                     </a>
                     <h3>Login With LinkedIn<br> Profile</h3>
                     <p>We offer lots of templates that<br>will make your resume stand out fromthe<br> rest of the pack. Choose a template<br> that suits you and edge closer to<br> your dream job.</p>
+                    <!--end new_2-->
                 </li>
                 <li>
                     <img src="/img/img_2.png" alt="">
