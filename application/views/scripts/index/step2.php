@@ -78,6 +78,17 @@
             <a href="buy" id="buy">buy</a>
         </div>
     </div>
+<!-- Buy Modal Window -->   
+    <div id="buyWindow">
+        <div id="buyBg"></div>
+        <div id="part">
+            <h2>buy template</h2>
+            <div id="buyButtons">
+                <a href="#" id="buyTemp">buy</a>
+                <a href="#" id="closeBuyTemp">close</a>
+            </div>
+        </div>
+    </div>
 <!-- Carousel -->
 <script src="js/jquery.elastislide.js"></script>
     <script type="text/javascript">
