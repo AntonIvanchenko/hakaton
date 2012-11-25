@@ -1,13 +1,24 @@
+
     <section class="container_12 clearfix">
         <div class="grid_12">
             <p id="slogan"><span class="strong">Create</span> a Professional Resume<br><span class="strong">in a minute</span>!</p>
             <a id="startButton" href="#">Get Started</a>
             <hr>
+            <!--new_1-->
+            <p class="description padding_1">Looking for a new job, but don't have time to take care of the resume?<br>
+This <span class="dStrong">RESUME BUILDER</span> is <span class="dStrong">FOR YOU!</span></p>
+            <p class="description padding_2">Within just a couple of clicks we will turn your LinkedIn profile into a job winning resume!<br>
+Plus, with the stunning design based on one of our <span class="dStrong dSItalic">awesome templates you</span> will<br>
+impress the employers and will find the perfect job - whatever it is.</p>
+            <hr>
+            <!--end new_1-->
             <ul class="list_1">
                 <li>
                     <img src="img/img_1.png" alt="">
-                    <h3>Login With LinkedIn<br> Profile</h3>
+                    <!--new_2-->
+                    <h3>Login With LinkedIn</h3>
                     <p>We offer lots of templates that<br>will make your resume stand out fromthe<br> rest of the pack. Choose a template<br> that suits you and edge closer to<br> your dream job.</p>
+                    <!--end new_2-->
                 </li>
                 <li>
                     <img src="img/img_2.png" alt="">
@@ -31,12 +42,12 @@
                 <hr class="hrColor_2">
                 <div id="inner">
                     <ul class="list_2">
-                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt="" ><span class="imgShadow"></span></a></li>
-                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
-                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
-                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt="" ><span class="imgShadow"></span></a></li>
-                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
-                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/img1.jpg" class="fancyImg" rel="index"><img src="img/img1.jpg" alt="" ><span class="imgShadow"></span></a></li>
+                        <li><a href="img/img2.jpg" class="fancyImg" rel="index"><img src="img/img2.jpg" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/img3.jpg" class="fancyImg" rel="index"><img src="img/img3.jpg" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/img1.jpg" class="fancyImg" rel="index"><img src="img/img1.jpg" alt="" ><span class="imgShadow"></span></a></li>
+                        <li><a href="img/img2.jpg" class="fancyImg" rel="index"><img src="img/img2.jpg" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/img3.jpg" class="fancyImg" rel="index"><img src="img/img3.jpg" alt=""><span class="imgShadow"></span></a></li>
                     </ul>
                 </div>
             </div>
