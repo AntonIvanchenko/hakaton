@@ -7,6 +7,7 @@
     <link type="text/css" href="css/style.css" rel="stylesheet">
     <link type="text/css" href="css/skeleton.css" rel="stylesheet">
     <link type="text/css" href="css/layout.css" rel="stylesheet">
+    <link type="text/css" href="css/templates.css" rel="stylesheet">
     <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
     <script src="js/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
@@ -38,7 +39,7 @@
 	echo $this->layout ()->content;
 ?>
 
-    <footer>
+    <footer id="footer">
         <div class="container_12 clearfix">
             <div class="grid-12">
                 Resuminute &copy; 2012 Privacy Policy

@@ -51,21 +51,75 @@
     </div>
 <!-- Resume Container -->
     <div class="resume-bg">
-    <section class="container_12 clearfix">
+   <section class="container_12 clearfix">
         <div class="grid_12">
             <h1 class="aligncenter">Preview &amp; Edit</h1>
-            <div id="resume">
-            <!-- ******************** Profile Begin ******************** -->
-                Text
-                <div id="param_name" class="param">
-                    Text <a href="#" class="hide-show">hide</a>
-                    <p>Ivan Ivanov<br>bla<br>bla</p>
+            <div id="resume" class="resume-body">
+                <div class="main">
+        <div class="clearfix">
+            <div class="grid_10 prefix_1 alpha">
+                <div class="clearfix resume-header">
+                    <div class="grid_7 alpha">
+                        <h1>John Doe</h1>
+                        <h3>Marketing Manager at CEO Company,<br>Web Designer, Director</h3>
+                    </div>
+                    <div class="grid_3 omega">
+                        <div class="alignright info">
+                            <span>WEB:</span> www.jonathnfoel.com<br>
+                            <span>Email:</span> jhon@jonathonfoel.com<br>
+                            <span>Phone:</span> 00 1234 5678<br>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div id="param_name2" class="param">
-                    Text <a href="#" class="hide-show">hide</a>
-                    <p>Ivan Ivanov<br>bla<br>bla<br>bla<br>bla</p>
+                <div class="resume-part">
+                    <a href="#" class="hide-show">hide</a>
+                    <div class="part-wrapper">
+                        <div class="part-title">
+                            <h4>Summary</h4>
+                        </div>
+                        <div class="part-content">
+                            Most recently, Dean has been Lab Zero's engineering architect in the development of DNA Ancestry. He came to Lab Zero from Ofoto (now Kodak Gallery), where he spent a four-year tenure managing the team of web developers responsible for Kodak's Mobile, Premium and EU sites, and was a senior developer on many of Kodak Gallery's mobile projects. Before joining Kodak, Dean was the lead user-experience 
+    engineer and a BroadVision developer at IS Solutions Plc's US headquarters. One of his key 
+    accomplishments there was designing and implementing interfaces for a suite of BroadVision's 
+    Enterprise applications. Dean graduated with a BA from UCSB.
+                        </div>
+                    </div>
                 </div>
-            <!-- ******************** Profile End ******************** -->
+                <div class="resume-part">
+                    <a href="#" class="hide-show">hide</a>
+                    <div class="part-wrapper">
+                        <div class="part-title">
+                            <h4>Specialities</h4>
+                        </div>
+                        <div class="part-content">
+                            Most recently, Dean has been Lab Zero's engineering architect in the development of DNA Ancestry. He came to Lab Zero from Ofoto (now Kodak Gallery), where he spent a four-year tenure managing the team of web developers responsible for Kodak's Mobile, Premium and EU sites, and was a senior developer on many of Kodak Gallery's mobile projects. Before joining Kodak, Dean was the lead user-experience 
+    engineer and a BroadVision developer at IS Solutions Plc's US headquarters. One of his key 
+    accomplishments there was designing and implementing interfaces for a suite of BroadVision's 
+    Enterprise applications. Dean graduated with a BA from UCSB.
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-part">
+                    <a href="#" class="hide-show">hide</a>
+                    <div class="part-wrapper">
+                        <div class="part-title">
+                            <h4>Skills</h4>
+                        </div>
+                        <div class="part-content">
+                            <ul class="resume-list">
+                                <li>Minim veniam</li>
+                                <li>Quis nostrud exerci</li>
+                                <li>Ullamcorper suscipit</li>
+                                <li>Lobortis nisl ut</li>
+                                <li>Ex ea</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
             </div>
         </div>
     </section>
