@@ -57,14 +57,14 @@
             <div class="grid_10 prefix_1 alpha">
                 <div class="clearfix resume-header">
                     <div class="grid_7 alpha">
-                        <h1>David Brown</h1>
+                        <h1>David Brawn</h1>
                         <h3>CEO at www.templatemonster.com</h3>
                     </div>
                     <div class="grid_3 omega">
                         <div class="alignright info">
-                            <span>WEB:</span> www.davidbrown.com<br>
-                            <span>Email:</span> david@davidbrown.com<br>
-                            <span>Phone:</span> 1 (800) 123 4567<br>
+                            <span>WEB:</span> www.templatemonster.com<br>
+                            <span>Email:</span> david@templatemonster.com<br>
+                            <span>Phone:</span> +38 (063) 618 3626<br>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -187,11 +187,18 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
     <div id="buyWindow">
         <div id="buyBg"></div>
         <div id="part">
-            <h2>buy template</h2>
-            <div id="buyButtons">
-                <a href="#" id="buyTemp">buy</a>
-                <a href="#" id="closeBuyTemp">close</a>
+            <h2>Template Added</h2>
+            <img src="" />
+            <span id="tamplateClass">Premium Template</span>
+            <span id="tamplatePrice">$9.39</span>
+            <hr>
+            <span id="pay">Payment Method</span>
+            <div id="paySistems">
+                <label><input type="radio" name="paySistem" value="PayPal" checked> PayPal</label>
+                <label><input type="radio" name="paySistem"  value="CC" class="marginLeft"> CC</label>
             </div>
+            <a href="#" id="buyTemp"></a>
+            <a href="#" id="closeBuyTemp"></a>
         </div>
     </div>
 <!-- Carousel -->

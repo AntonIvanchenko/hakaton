@@ -43,12 +43,12 @@ impress the employers and will find the perfect job - whatever it is.</p>
                 <hr class="hrColor_2">
                 <div id="inner">
                     <ul class="list_2">
-                        <li><a href="/img/tempale_img.png" class="fancyImg" rel="index"><img src="/img/tempale_img.png" alt="" ><span class="imgShadow"></span></a></li>
-                        <li><a href="/img/tempale_img.png" class="fancyImg" rel="index"><img src="/img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
-                        <li><a href="/img/tempale_img.png" class="fancyImg" rel="index"><img src="/img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
-                        <li><a href="/img/tempale_img.png" class="fancyImg" rel="index"><img src="/img/tempale_img.png" alt="" ><span class="imgShadow"></span></a></li>
-                        <li><a href="/img/tempale_img.png" class="fancyImg" rel="index"><img src="/img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
-                        <li><a href="/img/tempale_img.png" class="fancyImg" rel="index"><img src="/img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="/img/img1.jpg" class="fancyImg" rel="index"><img src="/img/img1.jpg" alt="" ><span class="imgShadow"></span></a></li>
+                        <li><a href="/img/img2.jpg" class="fancyImg" rel="index"><img src="/img/img2.jpg" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="/img/img3.jpg" class="fancyImg" rel="index"><img src="/img/img3.jpg" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="/img/img1.jpg" class="fancyImg" rel="index"><img src="/img/img1.jpg" alt="" ><span class="imgShadow"></span></a></li>
+                        <li><a href="/img/img2.jpg" class="fancyImg" rel="index"><img src="/img/img2.jpg" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="/img/img3.jpg" class="fancyImg" rel="index"><img src="/img/img3.jpg" alt=""><span class="imgShadow"></span></a></li>
                     </ul>
                 </div>
             </div>
