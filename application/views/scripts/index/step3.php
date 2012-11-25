@@ -290,8 +290,7 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
     <div id="steps-menu">
         <div id="steps-menu-container">
             <a href="step2.html" id="prev">prev</a>
-            <a href="#" id="next">next</a>
-            <a href="buy" id="buy">buy</a>
+            <a href="purchase" id="purchase">purchase</a>
         </div>
     </div>
     <div id="getLinkWindow">
