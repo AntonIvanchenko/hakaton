@@ -82,17 +82,17 @@ try {
     require_once('linkedin_3.2.0.class.php');
 
     // start the session
-    if (!session_start()) {
+/*     if (!session_start()) {
         throw new LinkedInException('This script requires session support, which appears to be disabled according to session_start().');
     }
-
+ */
     // display constants
     $config = Zend_Registry::get('config');
 
     $API_CONFIG = array(
         'appKey' => $config->setting->linkedin->appKey,
         'appSecret' => $config->setting->linkedin->appSecret,
-        'callbackUrl' => NULL
+        'callbackUrl' => $config->setting->linkedin->callback
     );
 //    define('DEMO_GROUP', '4010474');
 //    define('DEMO_GROUP_NAME', 'Simple LI Demo');
@@ -107,14 +107,16 @@ try {
              * Handle user initiated LinkedIn connection, create the LinkedIn object.
              */
             // check for the correct http protocol (i.e. is this script being served via http or https)
-            if ($_SERVER['HTTPS'] == 'on') {
+            if (!empty ($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
                 $protocol = 'https';
             } else {
                 $protocol = 'http';
             }
 
             // set the callback url
-            $API_CONFIG['callbackUrl'] = $protocol . '://' . $_SERVER['SERVER_NAME'] . ((($_SERVER['SERVER_PORT'] != PORT_HTTP) || ($_SERVER['SERVER_PORT'] != PORT_HTTP_SSL)) ? ':' . $_SERVER['SERVER_PORT'] : '') . $_SERVER['PHP_SELF'] . '?' . LINKEDIN::_GET_TYPE . '=initiate&' . LINKEDIN::_GET_RESPONSE . '=1';
+            //$API_CONFIG['callbackUrl'] = $protocol . '://' . $_SERVER['SERVER_NAME'] . ((($_SERVER['SERVER_PORT'] != PORT_HTTP) || ($_SERVER['SERVER_PORT'] != PORT_HTTP_SSL)) ? ':' . $_SERVER['SERVER_PORT'] : '') . $_SERVER['PHP_SELF'] . '?' . LINKEDIN::_GET_TYPE . '=initiate&' . LINKEDIN::_GET_RESPONSE . '=1';
+
+
             $OBJ_linkedin = new LinkedIn($API_CONFIG);
 
             // check for response from LinkedIn
@@ -218,7 +220,7 @@ try {
                         <h2 id="profile">Your Profile:</h2>
 
                         <?php
-                        var_dump($OBJ_linkedin->profile());
+
                         $response = $OBJ_linkedin->profile('~:(id,first-name,last-name,picture-url)');
                         if ($response['success'] === TRUE) {
                             $response['linkedin'] = new SimpleXMLElement($response['linkedin']);
