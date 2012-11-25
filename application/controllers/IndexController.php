@@ -15,8 +15,29 @@ class IndexController extends Zend_Controller_Action
 
 	public function indexAction ()
 	{
-		require_once 'linkedin.php';
 	}
+
+
+	public function step2Action ()
+	{
+	}
+
+
+	public function step3Action ()
+	{
+	}
+
+
+
+
+	public function loginAction ()
+	{
+		$this->_helper->viewRenderer->setNoRender();
+
+		$linked = new Application_LinkedIn ();
+		$linked->initiate ($this->_request);
+	}
+
 
 	public function testAction ()
 	{
