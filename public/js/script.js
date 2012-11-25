@@ -47,13 +47,13 @@ $(document).ready(function(){
     })
     $(".hide-show").toggle(
         function(){
-            $(this).parent(".resume-part").find(">.part-wrapper").slideUp(300);
+            $(this).parent(".resume-part").find(">.part-wrapper").fadeTo(300, 0.5);
             $(this).text("show");
             textArea[$(this).parent(".resume-part").index()] = false;
             return false;
         },
         function(){
-            $(this).parent(".resume-part").find(">.part-wrapper").slideDown(300);
+            $(this).parent(".resume-part").find(">.part-wrapper").fadeTo(300, 1);
             $(this).text("hide");
             textArea[$(this).parent(".resume-part").index()] = true;
             return false;

@@ -57,13 +57,13 @@
             <div class="grid_10 prefix_1 alpha">
                 <div class="clearfix resume-header">
                     <div class="grid_7 alpha">
-                        <h1>David Brawn</h1>
+                        <h1>David Braun</h1>
                         <h3>CEO at www.templatemonster.com</h3>
                     </div>
                     <div class="grid_3 omega">
                         <div class="alignright info">
                             <span>WEB:</span> www.templatemonster.com<br>
-                            <span>Email:</span> david@templatemonster.com<br>
+                            <span>Email:</span>david@templatemonster.com<br>
                             <span>Phone:</span> +38 (063) 618 3626<br>
                         </div>
                     </div>
