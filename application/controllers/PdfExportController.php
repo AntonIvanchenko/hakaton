@@ -22,6 +22,9 @@ class PdfExportController extends Zend_Controller_Action
 	{
 		// create PDF
 		$pdf = new Zend_Pdf();
+		
+		$useremail = $this->_getParam('email');
+		
 		// create A4 page
 //		$page = new Zend_Pdf_Page(Zend_Pdf_Page::SIZE_A4);
 //
