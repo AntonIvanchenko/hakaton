@@ -60,7 +60,6 @@
                     <div class="clear"></div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Education</h4>
@@ -71,7 +70,6 @@
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Summary</h4>
@@ -85,7 +83,6 @@
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Experience</h4>
@@ -101,7 +98,6 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Experience</h4>
@@ -117,7 +113,6 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Experience</h4>
@@ -130,7 +125,6 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Skills</h4>
@@ -147,7 +141,6 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Additional</h4>
@@ -238,15 +231,14 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                     <div class="grid_3 omega">
                         <div class="alignright info">
-                            <span>WEB:</span> www.jonathnfoel.com<br>
-                            <span>Email:</span> jhon@jonathonfoel.com<br>
-                            <span>Phone:</span> 00 1234 5678<br>
+                            <span>WEB:</span> www.templatemonster.com<br>
+                            <span>Email:</span> david@templatemonster.com<br>
+                            <span>Phone:</span> +38 (063) 618 3626<br>
                         </div>
                     </div>
                     <div class="clear"></div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Summary</h4>
@@ -260,7 +252,6 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Specialities</h4>
@@ -274,7 +265,6 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
                     </div>
                 </div>
                 <div class="resume-part">
-                    <a href="#" class="hide-show">hide</a>
                     <div class="part-wrapper">
                         <div class="part-title">
                             <h4>Skills</h4>
@@ -304,15 +294,13 @@ Strategic Consulting, including business plan &amp; sales strategy development.<
             <a href="buy" id="buy">buy</a>
         </div>
     </div>
-    
-     <div id="getLinkWindow">
+    <div id="getLinkWindow">
         <div id="buyBg"></div>
         <div id="getLinkPart">
             <h2>Link to your resume</h2>
             <input name="link" type="text" value="">
             <p>Press CTRL + C to copy</p>
-            <div id="buyButtons">
-                <a href="#" class="close-link" id="closeGetLink">close</a>
-            </div>
+            <a href="#" id="closeGetLink"></a>
         </div>
+    </div>
     </div>

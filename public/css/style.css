@@ -612,6 +612,129 @@ input[name='link']{
     font-weight: bold;
     font-size: 1.2em;
 }
+/*buy*/
+#buyWindow{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   top: 0;
+   display: none;
+}
+#part{
+    width: 405px;
+    height: 360px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin-left: -233px;
+    margin-top: -250px;
+    padding: 40px;
+    background: url(../img/buyPart.png) 0 0 no-repeat;
+}
+#buyWindow img{
+    width: 100px;
+    height: 100px; 
+    float: left;
+    margin-right: 23px;
+}
+#tamplateClass{
+    font: 18px/1.2em "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    display: block;
+    padding-top: 13px;
+    color: #fff;
+}
+#tamplatePrice{
+    font: 48px/1.2em "Open Sans", sans-serif;
+    font-weight: 300;
+    display: block;
+    padding-bottom: 32px;
+    color: #fff;
+}
+#pay{
+    font: 18px/1.2em "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: #fff;
+    padding-bottom: 16px;
+    display: block;
+}
+#paySistems{
+    color: #fff;
+    
+    font: 18px/1.2em "Open Sans", sans-serif;  
+    font-weight: 300;  font-style: italic;
+}
+#part hr{
+    margin-bottom: 25px;
+    
+}
+#part>h2, #getLinkWindow h2{
+    font: 18px/1.2em "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #3c525c;
+    font-style: italic;
+    padding-bottom: 53px;
+}
+#buyButtons{
+    position: absolute;
+    bottom: 20px;
+    left: 230px;
+}
+#buyBg{
+    background: url('../img/buy_bg.png'); 
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+}
+.marginLeft{
+    margin-left: 41px;
+}
+#buyTemp{
+    background: url('../img/buy_bg_button.png') 0 0 no-repeat; 
+    width: 237px;
+    height: 51px;
+    display: block;
+    right: 26px;
+    position: absolute;
+    bottom: 21px;
+}
+#closeBuyTemp, #closeGetLink{
+    background: url('../img/closeBg.png') 0 0 no-repeat; 
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    display: block; 
+}
+/*end buy*/ 
+/*get link*/
+#getLinkWindow{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   top: 0;
+   display: none;
+}
+#getLinkPart{
+    width: 413px;
+    height: 184px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -70px;    
+    background:  url('../img/linc_bg.png') 0 0 no-repeat;
+    padding: 37px; 
+}
+input[name='link']{
+    width: 100%;
+}
+/*end get link*/ 
 /*  footer */
 footer{
     background: #cceaf0;
