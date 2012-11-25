@@ -40,7 +40,21 @@ class PdfExportController extends Zend_Controller_Action
 //		// add page to document
 //		$pdf->pages[] = $page;
 //		$filename = 'downloads/resume_'.date('Y_m_d_H_i_s',time()).'.pdf'; 
-		$filename = 'downloads/APPLICATION.pdf'; 
+		
+		switch ($useremail) {
+			case 'david.braun@gmail.com':
+				$filename = 'downloads/david.pdf'; 
+				break;
+			case 'dhenzel@netdna.com':
+				$filename = 'downloads/dhenzel.pdf'; 
+				break;
+			case 'bruno@prestashop.com':
+				$filename = 'downloads/bruno.pdf'; 
+				break;
+
+		}
+		
+		
 //		$pdf->save($filename);
 
 		$this->_helper->layout->disableLayout();
