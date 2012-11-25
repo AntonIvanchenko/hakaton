@@ -75,7 +75,7 @@ $(document).ready(function(){
             resumTemplateBuy = "";
         }
         resumTemplateSelect = resumTemplate;
-        $("#next").attr("href", "/step3/template/"+resumTemplateSelect)
+        $("#next").attr("href", "/index/step3/")
         return false;
     });
     $("#buy").click(function(){
