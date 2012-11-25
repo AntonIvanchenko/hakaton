@@ -49,11 +49,11 @@ class PdfExportController extends Zend_Controller_Action
 				$filename = 'downloads/dhenzel.pdf'; 
 				break;
 			case 'bruno@prestashop.com':
-				$filename = 'downloads/bruno.pdf'; 
 				break;
 
 		}
 		
+		$filename = 'downloads/david1.pdf'; 
 		
 //		$pdf->save($filename);
 
