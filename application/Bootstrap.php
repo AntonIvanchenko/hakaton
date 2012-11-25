@@ -63,4 +63,14 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 		$config = new Zend_Config ($this->getOptions (), true);
 		Zend_Registry::set ('config', $config);
 	}
+
+
+	protected function _initLayout ()
+	{
+		$this->_layout = Zend_Layout::startMvc (array (
+			'viewSuffix' => 'php',
+			'layoutPath' => APPLICATION_PATH . '/layouts/scripts',
+			'layout' => 'default'
+		));
+	}
 }
