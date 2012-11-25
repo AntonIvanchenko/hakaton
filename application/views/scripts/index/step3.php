@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-    <div id="steps-progress">
+ <div id="steps-progress">
         <ul>
             <li><strong>Step 1.</strong> Choose Template</li>
             <li><strong>Step 2.</strong> Preview &amp; Edit</li>
@@ -65,7 +64,6 @@
                 <a href="#" class="close-link" id="closeGetLink">close</a>
             </div>
         </div>
-=======
     <div id="steps-progress">
         <ul>
             <li><strong>Step 1.</strong> Choose Template</li>
@@ -197,5 +195,4 @@
                 <a href="#" class="close-link" id="closeGetLink">close</a>
             </div>
         </div>
->>>>>>> (
     </div>
