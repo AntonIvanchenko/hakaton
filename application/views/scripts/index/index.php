@@ -1,46 +1,44 @@
-<!DOCTYPE HTML>
-<head>
-    <meta http-equiv="content-type" content="text/html" />
-    <meta name="author" content="behaart" />
-    <title>Resuminute</title>
-    <style type="text/css">
-   		header,
-   		section,
-   		footer{
-   			width: 940px;
-   			margin: 0 auto;
-   			padding-bottom: 30px;
-   		}
-   		.underc{
-   			position: absolute;
-   			top: 0;
-   			left: 50%;
-   			margin-left: -100px;
-   			width: 200px;
-   			background: #eee;
-   			height: 25px;
-   			text-align: center;
-   			border-radius: 0 0 5px 5px;
-   			line-height: 25px;
-   			color: red;
-   			font-size: 1.2em;
-   		}
-    </style>
-</head>
-<body>
-	<header>
-		<h1>Resuminute</h1>
-		<h2>Your Resume - In a Minute!</h2>
-		<div class="underc">Under Construction</div>
-	</header>
-	<section>
-		<p>Build a fascinating resume from your LinkedIn profile data within two easy steps!</p>
-		<ol>
-			<li>Connect with LinkedIn</li>
-			<li>Choose a resume template</li>
-			<li>Share and Submit the Resume! </li>
-		</ol>
-	</section>
-	<footer>Copyright &copy; 2012</footer>
-</body>
-</html>
+    <section class="container_12 clearfix">
+        <div class="grid_12">
+            <p id="slogan"><span class="strong">Create</span> a Professional Resume<br><span class="strong">in a minute</span>!</p>
+            <a id="startButton" href="#">Get Started</a>
+            <hr>
+            <ul class="list_1">
+                <li>
+                    <img src="img/img_1.png" alt="">
+                    <h3>Login With LinkedIn<br> Profile</h3>
+                    <p>We offer lots of templates that<br>will make your resume stand out fromthe<br> rest of the pack. Choose a template<br> that suits you and edge closer to<br> your dream job.</p>
+                </li>
+                <li>
+                    <img src="img/img_2.png" alt="">
+                    <h3 class="bottomPading">Check & Edit</h3>
+                    <p>Completing your new resume will take no<br> more than ten minutes. If you want to<br> spare some extra minutes,<br> Resumesimo can import the data from<br> your social networks accounts.</p>
+                </li>
+                <li class="marginNone">
+                    <img src="img/img_3.png" alt="">
+                    <h3 class="bottomPading">View and Share</h3>
+                    <p>Check your result and enjoy <br>a resume that’s different from the rest.<br> There’s hardly a chance personnel <br>managers will overlook your <br>resume.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div id="carousel">
+        <div class="container_12 clearfix">
+            <div class="grid_12">
+                <a href="#" id="nextTemp"></a>
+                <span id="text_1">Choose avalable resume templates!</span>
+                <a href="#" id="prevTemp"></a>
+                <hr class="hrColor_2">
+                <div id="inner">
+                    <ul class="list_2">
+                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt="" ><span class="imgShadow"></span></a></li>
+                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt="" ><span class="imgShadow"></span></a></li>
+                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
+                        <li><a href="img/tempale_img.png" class="fancyImg" rel="index"><img src="img/tempale_img.png" alt=""><span class="imgShadow"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
