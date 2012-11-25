@@ -153,7 +153,7 @@ hr{
     display: block;
     position: absolute;
     background: url('../img/nextButton.png') no-repeat;
-    top: -10px;
+    top: 0;
     right: 12px;
 }
 #prevTemp{
