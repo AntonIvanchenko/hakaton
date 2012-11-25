@@ -59,7 +59,7 @@ $(document).ready(function(){
             return false;
         }
     );
-    $("#next").attr("href", "/step3/template/"+resumTemplateSelect)
+    $("#next").attr("href", "/index/step3/")
     $("#templatesMenu>li>a").click(function(){
         var button = $(this),
             resumTemplate = button.attr('href');
