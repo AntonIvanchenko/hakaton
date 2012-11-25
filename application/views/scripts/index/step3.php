@@ -12,7 +12,7 @@
                 <div id="share-links" class="clearfix">
                     <div class="fleft">
                         <a href="#" class="share-link"><img src="img/download.png"><span>Get Link</span></a>
-                        <a href="<?php echo $this->url(array('controller' => 'pdfexport', 'action' => 'export'), null, true); ?>" class="share-link"><img src="img/link.png"><span>Download</span></a>
+                        <a href="<?php echo $this->url(array('controller' => 'pdf-export', 'action' => 'export', array('template'=>$_REQUEST['template'])), null, true); ?>" class="share-link"><img src="img/link.png"><span>Download</span></a>
                     </div>
                     <div class="fright" id="social-btns">
                         <div id="google-btn">
